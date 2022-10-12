@@ -1,0 +1,5 @@
+RUN	github.simulations_Sim	simulations-sim	1665592323780	 	3.3.1
+USER	github	1	START	1665592324984	1665592324984
+REQUEST	1		tilForsiden	1665592325014	1665592325301	OK	 
+REQUEST	1		login	1665592325389	1665592325817	KO	regex(authenticity_token" value="(.*ø)" ).find.exists, found nothing
+USER	github	1	END	1665592324984	1665592325851
